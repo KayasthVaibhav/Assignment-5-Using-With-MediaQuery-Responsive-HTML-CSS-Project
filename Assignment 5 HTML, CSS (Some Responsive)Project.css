@@ -1,0 +1,995 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: rgb(9, 9, 44);
+    /* overflow: auto; */
+}
+ /* Navigation Bar Start from Here */
+/* Extra small devices (phones, 600px and down */
+@media Only screen and (max-width: 600px){
+    
+    .hamicon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+    .Navbar ul{
+        display: none;
+        align-items: center;
+        justify-content: end;
+        
+    }
+    .Navbar ul li{
+        list-style: none;
+        padding: 20px;
+        color: white;
+        font-weight: 600;
+    }
+    .Navbar ul li:hover{
+        list-style: none;
+        padding: 20px;
+        color: white;
+        font-weight: 600;
+        background-color: rgb(3, 3, 237);
+        border-radius: 2px;
+    }
+    /* Project Image and Text Here  */
+.PorjectImageandText{
+    display: block;
+    text-align: center;
+}
+.PorjectImageandText img{
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+.left-Side-Text{
+    display: block;
+    margin-right: 40px;
+}
+.left-Side-Text p{
+    font-weight: 600;
+    font-size: 20px;
+     color: white;
+
+}
+.left-Side-Text h1{
+    font-weight: 600;
+    font-size: 40px;
+     color: white;
+
+}
+
+.left-Side-Text h3{
+    font-weight: 600;
+     color: goldenrod;
+
+}
+.pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    text-decoration: solid underline;
+    text-decoration-color: rgb(24, 24, 246);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+ /* Bottom Contant Here   */
+.Project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+     padding: 15px;
+     margin: 15px;
+     gap: 10px;
+
+}
+.box1Image{
+     display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px; 
+}
+
+.box1Image img{
+    display: block;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid rgb(9, 9, 44);
+   border-radius: 8px;
+   width: 240px; 
+   height: 175px; 
+}
+.box2Image{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+}
+.box2Image img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+}
+.secondline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+     gap: 5px;
+}
+ .box3Image{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+}
+.box3Image img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+}
+.box4Image{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+} 
+.box4Image img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+} 
+ /* Footer Section Start from Here */
+.pro1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    text-decoration: solid underline;
+    text-decoration-color: rgb(24, 24, 246);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.ContactMe ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.ContactMe ul li img{
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    padding: 3px;
+} 
+    
+}
+/* Small devices (Portrait tabletes and large phones, 600px and Up */
+
+@media Only screen and (min-width: 600px){
+    
+    .hamicon{
+        display: none;
+    }
+    .Navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        
+    }
+    .Navbar ul li{
+        list-style: none;
+        padding: 20px;
+        color: white;
+        font-weight: 600;
+    }
+    .Navbar ul li:hover{
+        list-style: none;
+        padding: 20px;
+        color: white;
+        font-weight: 600;
+        background-color: rgb(3, 3, 237);
+        border-radius: 2px;
+    }
+    /* Project Image and Text Here  */
+.PorjectImageandText{
+    display: block;
+    text-align: center;
+}
+.PorjectImageandText img{
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+    margin: 20px;
+
+}
+.left-Side-Text{
+    display: block;
+    margin-right: 40px;
+}
+.left-Side-Text p{
+    font-weight: 600;
+    font-size: 20px;
+     color: white;
+
+}
+.left-Side-Text h1{
+    font-weight: 600;
+    font-size: 40px;
+     color: white;
+
+}
+
+.left-Side-Text h3{
+    font-weight: 600;
+     color: goldenrod;
+
+}
+.pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    text-decoration: solid underline;
+    text-decoration-color: rgb(24, 24, 246);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+ /* Bottom Contant Here   */
+.Project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+     padding: 15px;
+     margin: 15px;
+     gap: 10px;
+
+}
+.box1Image{
+     display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px; 
+}
+
+.box1Image img{
+    display: block;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid rgb(9, 9, 44);
+   border-radius: 8px;
+   width: 240px; 
+   height: 175px; 
+}
+.box2Image{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+}
+.box2Image img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+}
+.secondline{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     justify-content: center;
+     gap: 5px;
+}
+ .box3Image{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+}
+.box3Image img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+}
+.box4Image{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+} 
+.box4Image img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+} 
+ /* Footer Section Start from Here */
+.pro1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    text-decoration: solid underline;
+    text-decoration-color: rgb(24, 24, 246);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.ContactMe ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.ContactMe ul li img{
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    padding: 3px;
+} 
+    
+}
+/* Medium devices (landscape tablets, 768px and Up*/
+@media Only screen and (min-width: 768px){
+    
+    .hamicon{
+        display: none;
+    }
+    .Navbar ul{
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        
+    }
+    .Navbar ul li{
+        list-style: none;
+        padding: 20px;
+        color: white;
+        font-weight: 600;
+    }
+    .Navbar ul li:hover{
+        list-style: none;
+        padding: 20px;
+        color: white;
+        font-weight: 600;
+        background-color: rgb(3, 3, 237);
+        border-radius: 2px;
+    }
+    /* Project Image and Text Here  */
+    .PorjectImageandText{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .PorjectImageandText img{
+        width: 40%;
+        height: 40%;
+        border-radius: 10px;
+        margin: 40px;
+
+    }
+    .left-Side-Text{
+        display: block;
+        margin-right: 40px;
+    }
+    .left-Side-Text p{
+        font-weight: 600;
+        font-size: 20px;
+         color: white;
+    
+    }
+    .left-Side-Text h1{
+        font-weight: 600;
+        font-size: 40px;
+         color: white;
+    
+    }
+    
+    .left-Side-Text h3{
+        font-weight: 600;
+         color: goldenrod;
+    
+    }
+    .pro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin-top: 20px;
+         margin-bottom: -20px;
+         text-decoration: solid underline;
+         text-decoration-color: rgb(24, 24, 246);
+        /* font-family: 'Courier New', Courier, monospace; */
+    
+    }
+     /* Bottom Contant Here   */
+    .Project{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+         justify-content: center;
+         padding: 15px;
+         margin: 15px;
+         gap: 10px;
+    
+    }
+    .box1Image{
+         display: block;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(9, 9, 44);
+        border-radius: 8px;
+        width: 240px; 
+        height: 175px; 
+    }
+    
+    .box1Image img{
+        display: block;
+       align-items: center;
+       justify-content: center;
+       border: 2px solid rgb(9, 9, 44);
+       border-radius: 8px;
+       width: 240px; 
+       height: 175px; 
+    }
+    .box2Image{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(9, 9, 44);
+        border-radius: 8px;
+        width: 240px; 
+        height: 175px;
+    }
+    .box2Image img{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(9, 9, 44);
+        border-radius: 8px;
+        width: 240px; 
+        height: 175px;
+    }
+    .secondline{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+         justify-content: center;
+         gap: 10px;
+    }
+     .box3Image{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(9, 9, 44);
+        border-radius: 8px;
+        width: 240px; 
+        height: 175px;
+    }
+    .box3Image img{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(9, 9, 44);
+        border-radius: 8px;
+        width: 240px; 
+        height: 175px;
+    }
+    .box4Image{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(9, 9, 44);
+        border-radius: 8px;
+        width: 240px; 
+        height: 175px;
+    } 
+    .box4Image img{
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid rgb(9, 9, 44);
+        border-radius: 8px;
+        width: 240px; 
+        height: 175px;
+    } 
+     /* Footer Section Start from Here */
+    .pro1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        padding: 10px;
+        text-decoration: solid underline;
+        text-decoration-color: rgb(24, 24, 246);
+        /* font-family: 'Courier New', Courier, monospace; */
+    
+    }
+    .ContactMe ul{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+    
+    }
+    .ContactMe ul li img{
+        width: 30px;
+        height: 30px;
+        list-style: none;
+        padding: 3px;
+    } 
+    
+}
+
+/* Large devices ( Laptops/Desktop , 992px and Up*/
+@media Only screen and (min-width: 992px){
+    
+        .hamicon{
+            display: none;
+        }
+        .Navbar ul{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            
+        }
+        .Navbar ul li{
+            list-style: none;
+            padding: 20px;
+            color: white;
+            font-weight: 600;
+        }
+        .Navbar ul li:hover{
+            list-style: none;
+            padding: 20px;
+            color: white;
+            font-weight: 600;
+            background-color: rgb(3, 3, 237);
+            border-radius: 2px;
+        }
+        /* Project Image and Text Here  */
+        .PorjectImageandText{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .PorjectImageandText img{
+            width: 40%;
+            height: 40%;
+            border-radius: 10px;
+            margin: 50px;
+        
+        }
+        .left-Side-Text{
+            display: block;
+            margin-right: 40px;
+        }
+        .left-Side-Text p{
+            font-weight: 600;
+            font-size: 20px;
+             color: white;
+        
+        }
+        .left-Side-Text h1{
+            font-weight: 600;
+            font-size: 40px;
+             color: white;
+        
+        }
+        
+        .left-Side-Text h3{
+            font-weight: 600;
+             color: goldenrod;
+        
+        }
+        .pro{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            margin-top: 20px;
+            margin-bottom: -20px;
+            text-decoration: solid underline;
+            text-decoration-color: rgb(24, 24, 246);
+            /* font-family: 'Courier New', Courier, monospace; */
+        
+        }
+         /* Bottom Contant Here   */
+        .Project{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+             justify-content: center;
+             padding: 15px;
+             margin: 15px;
+             gap: 10px;
+        
+        }
+        .box1Image{
+             display: block;
+            align-items: center;
+            justify-content: center;
+             border: 2px solid rgb(9, 9, 44);
+            border-radius: 8px;
+            width: 240px; 
+            height: 175px; 
+        }
+        
+        .box1Image img{
+            display: block;
+           align-items: center;
+           justify-content: center;
+           border: 2px solid rgb(9, 9, 44);
+           border-radius: 8px;
+           width: 240px; 
+           height: 175px; 
+        }
+        .box2Image{
+            display: block;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgb(9, 9, 44);
+            border-radius: 8px;
+            width: 240px; 
+            height: 175px;
+        }
+        .box2Image img{
+            display: block;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgb(9, 9, 44);
+            border-radius: 8px;
+            width: 240px; 
+            height: 175px;
+        }
+        .secondline{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+             justify-content: center;
+             gap: 10px;
+        }
+         .box3Image{
+            display: block;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgb(9, 9, 44);
+            border-radius: 8px;
+            width: 240px; 
+            height: 175px;
+        }
+        .box3Image img{
+            display: block;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgb(9, 9, 44);
+            border-radius: 8px;
+            width: 240px; 
+            height: 175px;
+        }
+        .box4Image{
+            display: block;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgb(9, 9, 44);
+            border-radius: 8px;
+            width: 240px; 
+            height: 175px;
+        } 
+        .box4Image img{
+            display: block;
+            align-items: center;
+            justify-content: center;
+            border: 2px solid rgb(9, 9, 44);
+            border-radius: 8px;
+            width: 240px; 
+            height: 175px;
+        } 
+         /* Footer Section Start from Here */
+        .pro1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            padding: 10px;
+            text-decoration: solid underline;
+            text-decoration-color: rgb(24, 24, 246);
+            /* font-family: 'Courier New', Courier, monospace; */
+        
+        }
+        .ContactMe ul{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            list-style: none;
+        
+        }
+        .ContactMe ul li img{
+            width: 30px;
+            height: 30px;
+            list-style: none;
+            padding: 3px;
+        } 
+            
+}    
+    
+/*  Extra Large devices ( large Laptops/Desktop , 1200px and Up*/
+@media Only screen and (min-width: 1200px){ 
+.hamicon{
+    display: none;
+}
+.Navbar ul{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+.Navbar ul li{
+    list-style: none;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+}
+.Navbar ul li:hover{
+    list-style: none;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(3, 3, 237);
+    border-radius: 2px;
+}
+/* Project Image and Text Here  */
+.PorjectImageandText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.PorjectImageandText img{
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+    margin: 70px;
+
+}
+.left-Side-Text{
+    display: block;
+    margin-right: 40px;
+}
+.left-Side-Text p{
+    font-weight: 600;
+    font-size: 20px;
+     color: white;
+
+}
+.left-Side-Text h1{
+    font-weight: 600;
+    font-size: 40px;
+     color: white;
+
+}
+
+.left-Side-Text h3{
+    font-weight: 600;
+     color: goldenrod;
+
+}
+.pro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: -20px;
+    text-decoration: solid underline;
+    text-decoration-color: rgb(24, 24, 246);
+    font-family: 'Courier New', Courier, monospace;
+
+}
+ /* Bottom Contant Here   */
+.Project{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     justify-content: center;
+     padding: 15px;
+     margin: 15px;
+     gap: 10px;
+
+}
+.box1Image{
+     display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px; 
+}
+
+.box1Image img{
+    display: block;
+   align-items: center;
+   justify-content: center;
+   border: 2px solid rgb(9, 9, 44);
+   border-radius: 8px;
+   width: 240px; 
+   height: 175px; 
+}
+.box2Image{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+}
+.box2Image img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+}
+.secondline{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     justify-content: center;
+     gap: 10px;
+}
+ .box3Image{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+}
+.box3Image img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+}
+.box4Image{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+} 
+.box4Image img{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 9, 44);
+    border-radius: 8px;
+    width: 240px; 
+    height: 175px;
+} 
+ /* Footer Section Start from Here */
+.pro1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    text-decoration: solid underline;
+    text-decoration-color: rgb(24, 24, 246);
+    /* font-family: 'Courier New', Courier, monospace; */
+
+}
+.ContactMe ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    
+
+}
+.ContactMe ul li img{
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    padding: 3px;
+} 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
